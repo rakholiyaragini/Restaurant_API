@@ -33,7 +33,7 @@ export const postingredient = async (req, res) => {
         if (!ingredientName) {
             return res.json({ 'msg': 'ingredient Name is required' })
         }
-        Restaurant_API
+
         const data = await ingredientModel({
             ingredientName,
             ingredientType

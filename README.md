@@ -23,9 +23,9 @@ This API is designed to manage various aspects of a restaurant, including staff 
 
 ## Entity Details
 
-1. Staff and Roles
+# 1. Staff and Roles
 
-**Staff_Role**: Represents various roles of the staff (e.g., waiter, chef).
+- **Staff_Role**: Represents various roles of the staff (e.g., waiter, chef).
 
 - **staff_role_code**: The unique code for the role.
 - **staff_role_description**: A description of the staff role.
@@ -35,7 +35,7 @@ This API is designed to manage various aspects of a restaurant, including staff 
 - **staff_first_name** , **staff_last_name**: The name of the staff member.
 Linked to **Staff_Role** for role information.
 
-2. Customer
+# 2. Customer
 
 **Customer**: Stores customer details.
 
@@ -44,27 +44,27 @@ Linked to **Staff_Role** for role information.
 - **phone_number** , **cellphone_number**: Customer's contact numbers.
 - **email_address**: Customer's email address.
 
-3. Booking
+# 3. Booking
 
 **Booking**:Represents a customer's reservation.
 
 - **booking_id**: Unique identifier for the booking.
 - **date_of_booking**: Date when the booking was made.
 
-4. Table
+# 4. Table
 
 **Table**: Represents tables in the restaurant.
 
 - **table_number**: The number of the table.
 - **table_details**: Additional information regarding the table.
 
-5. Order
+# 5. Order
 
 - **Order**: Represents an order placed by a customer.
 - **order_id**: Unique identifier for the order.
 - **order_date_time**: Timestamp of the order.
 
-6. Menu
+# 6. Menu
 
 **Menu**: Represents the menu of the restaurant.
 
@@ -77,7 +77,7 @@ Linked to **Staff_Role** for role information.
 - **menu_item_description**: Description of the menu item.
 - **menu_item_price**: Price of the menu item.
 
-7. Order Menu Item
+# 7. Order Menu Item
 
 **Order_Menu_Item**: Links orders to the items ordered from the menu.
 
@@ -85,7 +85,7 @@ Linked to **Staff_Role** for role information.
 - **order_menu_item_quantity**: Quantity of the ordered item.
 - **order_menu_item_comments**: Any special instructions or comments for the item.
 
-8. Ingredients and Types
+# 8. Ingredients and Types
 
 **Ingredient_Type**: Represents types of ingredients (e.g., vegetables).
 
@@ -135,7 +135,6 @@ npm install
 
 ```plaintext
 PORT=3000
-MONGODB_URL=your_mongo_db_url
 ```
 4. Run the server:
 

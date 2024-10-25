@@ -37,7 +37,7 @@ Linked to **Staff_Role** for role information.
 
 # 2. Customer
 
-**Customer**: Stores customer details.
+- **Customer**: Stores customer details.
 
 - **customer_id**: Unique identifier for the customer.
 - **customer_first_name** , **customer_surname**: Name of the customer.
@@ -46,14 +46,14 @@ Linked to **Staff_Role** for role information.
 
 # 3. Booking
 
-**Booking**:Represents a customer's reservation.
+- **Booking**:Represents a customer's reservation.
 
 - **booking_id**: Unique identifier for the booking.
 - **date_of_booking**: Date when the booking was made.
 
 # 4. Table
 
-**Table**: Represents tables in the restaurant.
+- **Table**: Represents tables in the restaurant.
 
 - **table_number**: The number of the table.
 - **table_details**: Additional information regarding the table.
@@ -66,7 +66,7 @@ Linked to **Staff_Role** for role information.
 
 # 6. Menu
 
-**Menu**: Represents the menu of the restaurant.
+- **Menu**: Represents the menu of the restaurant.
 
 - **menu_id**: Unique identifier for the menu.
 - **menu_date**: The date of the menu.
@@ -79,7 +79,7 @@ Linked to **Staff_Role** for role information.
 
 # 7. Order Menu Item
 
-**Order_Menu_Item**: Links orders to the items ordered from the menu.
+- **Order_Menu_Item**: Links orders to the items ordered from the menu.
 
 - **order_menu_item_id**: Unique identifier for the order menu item.
 - **order_menu_item_quantity**: Quantity of the ordered item.
@@ -87,7 +87,7 @@ Linked to **Staff_Role** for role information.
 
 # 8. Ingredients and Types
 
-**Ingredient_Type**: Represents types of ingredients (e.g., vegetables).
+- **Ingredient_Type**: Represents types of ingredients (e.g., vegetables).
 
 - **ingredient_type_code**: Unique code for the ingredient type.
 - **ingredient_type_description**: Description of the ingredient type.

@@ -143,7 +143,7 @@ npm start
 ```
 5. Open the app in your browser:
 ```bash
-http://localhost:3008
+http://localhost:3000
 ```
 
 ### Environment 
